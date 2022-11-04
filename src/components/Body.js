@@ -38,7 +38,7 @@ const Body = () => {
             strings: [
                 '^2500You are being watched...^1000',
                 'Little Sam was not an Imposter^1000',
-                'Look to your left'
+                'Look to your left^1000'
             ],
             typeSpeed: 50,
             backSpeed: 50,

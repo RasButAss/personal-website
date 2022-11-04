@@ -56,3 +56,8 @@
   supported by Chrome, Edge, Opera and Firefox */
   cursor: none;
 }
+
+.navfont {
+  font-family: 'VCR OSD Mono', sans-serif;
+  font-size: 2rem;
+}

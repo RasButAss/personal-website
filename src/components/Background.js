@@ -1,6 +1,14 @@
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import Blue from "./amongus_blue.png";
+import Red from "./amongus_red.png";
+import Lime from "./amongus_lime.png";
+import White from "./amongus_white.png";
+import Pink from "./amongus_pink.png";
+import Orange from "./amongus_orange.png";
+import Cyan from "./amongus_cyan.png";
+import Green from "./amongus_green.png";
 
 const Background = () => {
     const particlesInit = useCallback(async engine => {
@@ -125,11 +133,11 @@ const Background = () => {
                 "interactivity": {
                     "events": {
                         "onHover": {
-                            "enable": false,
+                            "enable": true,
                             "mode": "repulse"
                         },
                         "onClick": {
-                            "enable": true,
+                            "enable": false,
                             "mode": "push"
                         },
                         "resize": true
@@ -148,7 +156,7 @@ const Background = () => {
                             "opacity": 0.8
                         },
                         "repulse": {
-                            "distance": 200
+                            "distance": 50
                         },
                         "push": {
                             "quantity": 4,
@@ -186,42 +194,42 @@ const Background = () => {
                             "options": {
                                 "images": [
                                     {
-                                        src: "https://particles.js.org/images/amongus_blue.png",
+                                        src: Blue,
                                         width: 205,
                                         height: 267
                                     },
                                     {
-                                        src: "https://particles.js.org/images/amongus_cyan.png",
+                                        src: Cyan,
                                         width: 207,
                                         height: 265
                                     },
                                     {
-                                        src: "https://particles.js.org/images/amongus_green.png",
+                                        src: Green,
                                         width: 204,
                                         height: 266
                                     },
                                     {
-                                        src: "https://particles.js.org/images/amongus_lime.png",
+                                        src: Lime,
                                         width: 206,
                                         height: 267
                                     },
                                     {
-                                        src: "https://particles.js.org/images/amongus_orange.png",
+                                        src: Orange,
                                         width: 205,
                                         height: 265
                                     },
                                     {
-                                        src: "https://particles.js.org/images/amongus_pink.png",
+                                        src: Pink,
                                         width: 205,
                                         height: 265
                                     },
                                     {
-                                        src: "https://particles.js.org/images/amongus_red.png",
+                                        src: Red,
                                         width: 204,
                                         height: 267
                                     },
                                     {
-                                        src: "https://particles.js.org/images/amongus_white.png",
+                                        src: White,
                                         width: 205,
                                         height: 267
                                     }
