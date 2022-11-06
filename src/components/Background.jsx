@@ -1,14 +1,14 @@
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import Blue from "./amongus_blue.png";
-import Red from "./amongus_red.png";
-import Lime from "./amongus_lime.png";
-import White from "./amongus_white.png";
-import Pink from "./amongus_pink.png";
-import Orange from "./amongus_orange.png";
-import Cyan from "./amongus_cyan.png";
-import Green from "./amongus_green.png";
+import Blue from "./images/amongus_blue.png";
+import Red from "./images/amongus_red.png";
+import Lime from "./images/amongus_lime.png";
+import White from "./images/amongus_white.png";
+import Pink from "./images/amongus_pink.png";
+import Orange from "./images/amongus_orange.png";
+import Cyan from "./images/amongus_cyan.png";
+import Green from "./images/amongus_green.png";
 
 const Background = () => {
     const particlesInit = useCallback(async engine => {

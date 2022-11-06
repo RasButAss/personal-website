@@ -11,11 +11,6 @@ const Body = () => {
     React.useEffect(() => {
         const options = {
             strings: [
-                // '<strong>Developer</strong>',
-                // '<strong>Finance</strong>',
-                // '<strong>Electronics</strong>',
-                // '<strong>Quant</strong>',
-                // '<strong>Machine Learning</strong>'
                 ' ^1000 <strong>Hey Stalker ;)</strong>',
             ],
             typeSpeed: 50,

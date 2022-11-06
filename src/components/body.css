@@ -61,3 +61,11 @@
   font-family: 'VCR OSD Mono', sans-serif;
   font-size: 2rem;
 }
+
+#about-heading {
+  padding-left: 2rem;
+}
+.content {
+  padding: 2rem;
+  font-family: 'VCR OSD Mono', sans-serif;
+}
