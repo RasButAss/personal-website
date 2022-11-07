@@ -183,9 +183,6 @@ return (
                 "particles": {
                     "shape": {
                         "type": "images",
-                        "options": {
-                            "images": []
-                        }
                     },
                     "size": {
                         "value": 40

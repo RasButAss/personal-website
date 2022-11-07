@@ -3,7 +3,7 @@ import BackgroundOther from './BackgroundOther'
 import Nav from './Nav'
 import Typed from 'typed.js'
 import './body.css'
-
+import Me from './images/me.png'
 
 const About = () => {
   const el = React.useRef(null);
@@ -29,12 +29,15 @@ const About = () => {
   return (
     <>
       <Nav />
+      <div className='me'>
+        <img src={Me} alt='ME' height="300" width="300" />
+      </div>
       <div className="noselect text-light" id='about-heading'>
         <span style={{ whiteSpace: 'pre' }} ref={el} className="noselect" />
       </div>
       <div>
         <p className='content text-light'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Hello, I'm Samarth Tankasali, a sophomore at IIT (BHU) Varanasi majoring in Electronics Engineering. I am passionate about software development, machine learning, finance, electronics and quant. In my free time you would see me jamming to music, sleeping, or walking across campus like a zombie. I love traveling, going out on treks, and exploring the strangest of places this world has to offer.
         </p>
       </div>
       <BackgroundOther />

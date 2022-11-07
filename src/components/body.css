@@ -63,9 +63,31 @@
 }
 
 #about-heading {
-  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content {
   padding: 2rem;
   font-family: 'VCR OSD Mono', sans-serif;
+  font-size: 1.5rem;
+}
+.me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-row {
+  padding: 3rem 2rem 2rem 2rem;
+}
+.icon {
+  font-size: 3rem;
+  margin: 3px;
+}
+.card-content {
+  font-family: 'VCR OSD Mono', sans-serif;
+}
+
+i:hover {
+  color: hsl(0, 0%, 64%);
 }
